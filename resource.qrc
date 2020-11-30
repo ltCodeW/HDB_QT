@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/保存布局.png</file>
+        <file>icons/保存到本地.png</file>
+        <file>icons/导出任务.png</file>
+        <file>icons/复制,重复,重叠.png</file>
+        <file>icons/连接流.png</file>
+        <file>icons/连接器.png</file>
+        <file>icons/连接中.png</file>
+        <file>icons/选择项目.png</file>
+        <file>icons/用户.png</file>
+        <file>icons/帮助.png</file>
+        <file>icons/切换.png</file>
+        <file>icons/文件展示.png</file>
+        <file>icons/用户信息.png</file>
+    </qresource>
+</RCC>

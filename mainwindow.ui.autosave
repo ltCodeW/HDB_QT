@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>781</width>
+    <height>478</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>371</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>selectMainGroup</string>
+    </property>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>311</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>selectConditionGroup</string>
+     </property>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>20</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>20</y>
+        <width>181</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>311</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="title">
+      <string>selectDisplayedVarablesGroup</string>
+     </property>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>onevariableGroup</string>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>26</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>20</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>onevariableGroup</string>
+      </property>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>26</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>20</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>160</y>
+        <width>281</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>onevariableGroup</string>
+      </property>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>26</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>20</y>
+         <width>62</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>50</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>varableName</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>20</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>-</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>groupBox_4</zorder>
+     <zorder>groupBox_4</zorder>
+     <zorder>groupBox_4</zorder>
+     <zorder>groupBox_5</zorder>
+     <zorder>groupBox_6</zorder>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_7">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>50</y>
+      <width>311</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>PlotGroup</string>
+    </property>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>50</y>
+       <width>281</width>
+       <height>251</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_13">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>54</width>
+       <height>12</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Plot</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="connectMenu">
+    <property name="title">
+     <string>连接</string>
+    </property>
+    <addaction name="actiondisplayUser"/>
+    <addaction name="actionnewConnect"/>
+    <addaction name="actionmanageUser"/>
+   </widget>
+   <widget class="QMenu" name="diaplayMenu">
+    <property name="title">
+     <string>工具</string>
+    </property>
+    <addaction name="actionsaveResult"/>
+    <addaction name="actionexportResult"/>
+    <addaction name="actionshowCalExample"/>
+   </widget>
+   <widget class="QMenu" name="toolMenu">
+    <property name="title">
+     <string>显示</string>
+    </property>
+    <addaction name="actionswitchPlotLayout"/>
+    <addaction name="actionchoseDisplayedVaraables"/>
+   </widget>
+   <widget class="QMenu" name="helpMenu">
+    <property name="title">
+     <string>帮助</string>
+    </property>
+    <addaction name="actionshowHelpDoc"/>
+   </widget>
+   <addaction name="connectMenu"/>
+   <addaction name="diaplayMenu"/>
+   <addaction name="toolMenu"/>
+   <addaction name="helpMenu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>60</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>true</bool>
+   </attribute>
+   <addaction name="actionnewConnect"/>
+   <addaction name="actionmanageUser"/>
+   <addaction name="actionexportResult"/>
+   <addaction name="actionsaveResult"/>
+   <addaction name="actionchoseDisplayedVaraables"/>
+   <addaction name="actionswitchPlotLayout"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionsaveResult">
+   <property name="icon">
+    <iconset theme="margin:8px" resource="resource.qrc">
+     <normaloff>:/icons/保存到本地.png</normaloff>:/icons/保存到本地.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存查询结果</string>
+   </property>
+  </action>
+  <action name="actionexportResult">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/导出任务.png</normaloff>:/icons/导出任务.png</iconset>
+   </property>
+   <property name="text">
+    <string>导出查询结果</string>
+   </property>
+  </action>
+  <action name="actionshowCalExample">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/文件展示.png</normaloff>:/icons/文件展示.png</iconset>
+   </property>
+   <property name="text">
+    <string>展示算例信息</string>
+   </property>
+  </action>
+  <action name="actionnewConnect">
+   <property name="icon">
+    <iconset theme="margin:8px" resource="resource.qrc">
+     <normaloff>:/icons/连接流.png</normaloff>:/icons/连接流.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建连接</string>
+   </property>
+  </action>
+  <action name="actiondisplayUser">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/用户信息.png</normaloff>:/icons/用户信息.png</iconset>
+   </property>
+   <property name="text">
+    <string>展示用户信息</string>
+   </property>
+  </action>
+  <action name="actionmanageUser">
+   <property name="icon">
+    <iconset theme="margin:8px" resource="resource.qrc">
+     <normaloff>:/icons/用户.png</normaloff>:/icons/用户.png</iconset>
+   </property>
+   <property name="text">
+    <string>管理用户</string>
+   </property>
+  </action>
+  <action name="actionswitchPlotLayout">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/切换.png</normaloff>:/icons/切换.png</iconset>
+   </property>
+   <property name="text">
+    <string>切换算例图布局</string>
+   </property>
+  </action>
+  <action name="actionchoseDisplayedVaraables">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/选择项目.png</normaloff>:/icons/选择项目.png</iconset>
+   </property>
+   <property name="text">
+    <string>选择展示变量</string>
+   </property>
+  </action>
+  <action name="actionshowHelpDoc">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/icons/帮助.png</normaloff>:/icons/帮助.png</iconset>
+   </property>
+   <property name="text">
+    <string>帮助文档</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
