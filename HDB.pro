@@ -25,31 +25,49 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    logindialog.cpp \
+    logindialog.cpp \
+    main.cpp \
+    mainwindow.cpp \
+    logindialog.cpp \
+    main.cpp \
+    mainwindow.cpp \
+    logindialog.cpp \
+    main.cpp \
+    mainwindow.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    logindialog.h \
+    logindialog.h \
+    mainwindow.h \
+    logindialog.h \
+    mainwindow.h \
+    logindialog.h \
+    mainwindow.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    logindialog.ui
 
 RESOURCES += \
     resource.qrc
 
 DISTFILES += \
-    C:/Users/DELL/AppData/Local/Temp/±£´æ²¼¾Ö.png \
-    C:/Users/DELL/AppData/Local/Temp/±£´æµ½±¾µØ.png \
-    C:/Users/DELL/AppData/Local/Temp/µ¼³öÈÎÎñ.png \
-    C:/Users/DELL/AppData/Local/Temp/¸´ÖÆ,ÖØ¸´,ÖØµþ.png \
-    C:/Users/DELL/AppData/Local/Temp/Á¬½ÓÁ÷.png \
-    C:/Users/DELL/AppData/Local/Temp/Á¬½ÓÆ÷.png \
-    C:/Users/DELL/AppData/Local/Temp/Á¬½ÓÖÐ.png \
-    C:/Users/DELL/AppData/Local/Temp/ÓÃ»§.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/±£´æ²¼¾Ö.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/±£´æµ½±¾µØ.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/µ¼³öÈÎÎñ.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/¸´ÖÆ,ÖØ¸´,ÖØµþ.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/Á¬½ÓÁ÷.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/Á¬½ÓÆ÷.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/Á¬½ÓÖÐ.png \
-    C:/Users/DELL/Desktop/ÐÂ½¨ÎÄ¼þ¼Ð/ÓÃ»§.png
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½æ²¼ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½æµ½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½ï¿½,ï¿½Ø¸ï¿½,ï¿½Øµï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/AppData/Local/Temp/ï¿½Ã»ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½æ²¼ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½æµ½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½,ï¿½Ø¸ï¿½,ï¿½Øµï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.png \
+    C:/Users/DELL/Desktop/ï¿½Â½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½/ï¿½Ã»ï¿½.png

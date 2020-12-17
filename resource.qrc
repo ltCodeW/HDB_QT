@@ -13,5 +13,9 @@
         <file>icons/切换.png</file>
         <file>icons/文件展示.png</file>
         <file>icons/用户信息.png</file>
+        <file>icons/管网管理_两点连接.png</file>
+        <file>icons/视频压缩.png</file>
+        <file>icons/索引管理.png</file>
+        <file>icons/系统.png</file>
     </qresource>
 </RCC>
