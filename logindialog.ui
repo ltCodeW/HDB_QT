@@ -227,7 +227,7 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton">
+      <widget class="QPushButton" name="loginButton">
        <property name="text">
         <string>登录</string>
        </property>
@@ -259,7 +259,7 @@
   <zorder>horizontalSpacer_3</zorder>
   <zorder>frame</zorder>
   <zorder>layoutWidget</zorder>
-  <zorder>pushButton</zorder>
+  <zorder>loginButton</zorder>
   <zorder>UsernamelineEdit</zorder>
   <zorder>horizontalSpacer_3</zorder>
   <zorder>horizontalSpacer_4</zorder>
